@@ -3,6 +3,10 @@
 
 ## 安装下载
 
+- [下载地址](https://github.com/seal-cache/seal-cache/releases)
+- `npm i seal-cache`
+- CDN `http://unpkg.com/seal-cache/release/bundle.js`
+
 ## 快速使用
 
 简单接入的文档

@@ -17,3 +17,8 @@ cache.set('a', 100)
 ```javaScript
 cache.get('a')
 ```
+
+## 清空
+```javaScript
+cache.clear()
+```

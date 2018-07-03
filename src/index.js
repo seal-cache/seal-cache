@@ -8,5 +8,8 @@ class SealCache {
     set(key, value){
         this.list[key] = value
     }
+    clear(){
+        this.list = {}
+    }
 }
 window.SealCache = SealCache
