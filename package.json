@@ -1,0 +1,32 @@
+{
+  "name": "seal-cache",
+  "version": "0.0.1",
+  "description": "轻量级前端缓存工具~",
+  "main": "src/index.js",
+  "scripts": {
+    "release": "webpack",
+    "example": "http-server -p 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seal-cache/seal-cache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "https://github.com/seal-cache",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seal-cache/seal-cache/issues"
+  },
+  "homepage": "https://github.com/seal-cache/seal-cache#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
