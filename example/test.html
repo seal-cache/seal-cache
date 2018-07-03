@@ -8,11 +8,17 @@
     <h1>seal-cache</h1>
     <script src="../release/bundle.js"></script>
     <script>
+        var data = {
+            'num': '01',
+            'name': 'xiaoming',
+            'age': 18,
+            'hobby': ['足球', '篮球', '羽毛球']
+        };
         var SC = window.SealCache;
         var cache = new SC();
-        cache.set('a', 100);
-        alert(cache.get('a'));
-        cache.clear();
+        cache.set('user', data);
+        console.log(cache.get('user'));
+        cache.remove('user');
     </script>
 </body>
 </html>

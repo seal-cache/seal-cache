@@ -1,6 +1,6 @@
 {
   "name": "seal-cache",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "轻量级前端缓存工具~",
   "main": "src/index.js",
   "scripts": {
